@@ -1,29 +1,112 @@
-<mxfile host="app.diagrams.net" modified="2023-12-01T19:03:23.976Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.1.1 Safari/605.1.15" etag="e4fMGASFBOshG1kbXlHo" version="22.1.5" type="github">
+<mxfile host="app.diagrams.net" modified="2023-12-01T19:23:35.620Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.1.1 Safari/605.1.15" etag="EcbSlQJlB3fA3XySPeO0" version="22.1.5" type="github">
   <diagram name="Side-1" id="JoXnuGdrB5xHFLm8nKQt">
     <mxGraphModel dx="834" dy="617" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="z47OZ99O9PpKzbnwdb68-1" value="OrderCreated&lt;br&gt;Producer" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+        <mxCell id="z47OZ99O9PpKzbnwdb68-1" value="OrderCreated&lt;br&gt;Producer" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;movable=0;resizable=0;rotatable=0;deletable=0;editable=0;locked=1;connectable=0;" parent="1" vertex="1">
           <mxGeometry x="170" y="100" width="30" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="z47OZ99O9PpKzbnwdb68-2" value="" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+        <mxCell id="z47OZ99O9PpKzbnwdb68-2" value="" style="whiteSpace=wrap;html=1;aspect=fixed;movable=0;resizable=0;rotatable=0;deletable=0;editable=0;locked=1;connectable=0;" parent="1" vertex="1">
           <mxGeometry x="390" y="130" width="350" height="350" as="geometry" />
         </mxCell>
-        <mxCell id="z47OZ99O9PpKzbnwdb68-3" value="Kafka" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="z47OZ99O9PpKzbnwdb68-3" value="Kafka" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="535" y="90" width="60" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="z47OZ99O9PpKzbnwdb68-4" value="order.created" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+        <mxCell id="z47OZ99O9PpKzbnwdb68-4" value="order.created" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;movable=0;resizable=0;rotatable=0;deletable=0;editable=0;locked=1;connectable=0;" parent="1" vertex="1">
           <mxGeometry x="420" y="180" width="300" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="z47OZ99O9PpKzbnwdb68-5" value="order.dispatched" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+        <mxCell id="z47OZ99O9PpKzbnwdb68-5" value="order.dispatched" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;movable=0;resizable=0;rotatable=0;deletable=0;editable=0;locked=1;connectable=0;" parent="1" vertex="1">
           <mxGeometry x="414" y="240" width="300" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="z47OZ99O9PpKzbnwdb68-6" value="dispatch.tracking" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+        <mxCell id="z47OZ99O9PpKzbnwdb68-6" value="dispatch.tracking" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;movable=0;resizable=0;rotatable=0;deletable=0;editable=0;locked=1;connectable=0;" parent="1" vertex="1">
           <mxGeometry x="414" y="300" width="300" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="z47OZ99O9PpKzbnwdb68-7" value="tracking.status" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+        <mxCell id="z47OZ99O9PpKzbnwdb68-7" value="tracking.status" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;movable=0;resizable=0;rotatable=0;deletable=0;editable=0;locked=1;connectable=0;" parent="1" vertex="1">
           <mxGeometry x="410" y="360" width="300" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="PWPmZav-3NEtuZy25f-J-1" value="OrderCreated" style="shape=message;html=1;html=1;outlineConnect=0;labelPosition=center;verticalLabelPosition=bottom;align=center;verticalAlign=top;strokeColor=default;fontFamily=Helvetica;fontSize=12;fontColor=default;fillColor=default;movable=0;resizable=0;rotatable=0;deletable=0;editable=0;locked=1;connectable=0;" vertex="1" parent="1">
+          <mxGeometry x="400" y="170" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="PWPmZav-3NEtuZy25f-J-3" value="" style="curved=1;endArrow=classic;html=1;rounded=0;fontFamily=Helvetica;fontSize=12;fontColor=default;entryX=0;entryY=0.5;entryDx=0;entryDy=0;movable=0;resizable=0;rotatable=0;deletable=0;editable=0;locked=1;connectable=0;" edge="1" parent="1" target="PWPmZav-3NEtuZy25f-J-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="200" y="130" as="sourcePoint" />
+            <mxPoint x="310" y="200" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="220" y="170" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PWPmZav-3NEtuZy25f-J-4" value="Emit" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=12;fontFamily=Helvetica;fontColor=default;" vertex="1" connectable="0" parent="PWPmZav-3NEtuZy25f-J-3">
+          <mxGeometry x="-0.0246" y="2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PWPmZav-3NEtuZy25f-J-5" value="" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;fontColor=default;fillColor=default;movable=0;resizable=0;rotatable=0;deletable=0;editable=0;locked=1;connectable=0;" vertex="1" parent="1">
+          <mxGeometry x="852.5" y="100" width="345" height="345" as="geometry" />
+        </mxCell>
+        <mxCell id="PWPmZav-3NEtuZy25f-J-6" value="Dispatch&lt;br&gt;ms" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=12;fontFamily=Helvetica;fontColor=default;" vertex="1" parent="1">
+          <mxGeometry x="993" y="60" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="PWPmZav-3NEtuZy25f-J-7" value="OrderCreatedHandler" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;fontColor=default;fillColor=default;movable=0;resizable=0;rotatable=0;deletable=0;editable=0;locked=1;connectable=0;" vertex="1" parent="1">
+          <mxGeometry x="940" y="140" width="170" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="PWPmZav-3NEtuZy25f-J-8" value="Consume" style="curved=1;endArrow=classic;html=1;rounded=0;fontFamily=Helvetica;fontSize=12;fontColor=default;entryX=0.85;entryY=0.05;entryDx=0;entryDy=0;entryPerimeter=0;movable=0;resizable=0;rotatable=0;deletable=0;editable=0;locked=1;connectable=0;" edge="1" parent="1" target="PWPmZav-3NEtuZy25f-J-9">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="940" y="170" as="sourcePoint" />
+            <mxPoint x="790" y="140" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="880" y="130" />
+              <mxPoint x="820" y="140" />
+              <mxPoint x="780" y="150" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PWPmZav-3NEtuZy25f-J-9" value="OrderCreated" style="shape=message;html=1;html=1;outlineConnect=0;labelPosition=center;verticalLabelPosition=bottom;align=center;verticalAlign=top;strokeColor=default;fontFamily=Helvetica;fontSize=12;fontColor=default;fillColor=default;movable=0;resizable=0;rotatable=0;deletable=0;editable=0;locked=1;connectable=0;" vertex="1" parent="1">
+          <mxGeometry x="680" y="170" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="PWPmZav-3NEtuZy25f-J-10" value="DispatchService" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;fontColor=default;fillColor=default;movable=0;resizable=0;rotatable=0;deletable=0;editable=0;locked=1;connectable=0;" vertex="1" parent="1">
+          <mxGeometry x="940" y="220" width="170" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="PWPmZav-3NEtuZy25f-J-11" value="" style="endArrow=classic;html=1;rounded=0;fontFamily=Helvetica;fontSize=12;fontColor=default;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="PWPmZav-3NEtuZy25f-J-7">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="990" y="470" as="sourcePoint" />
+            <mxPoint x="1030" y="220" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PWPmZav-3NEtuZy25f-J-12" value="" style="edgeLabel;resizable=0;html=1;align=center;verticalAlign=middle;strokeColor=default;fontFamily=Helvetica;fontSize=12;fontColor=default;fillColor=default;" connectable="0" vertex="1" parent="PWPmZav-3NEtuZy25f-J-11">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="210" y="130" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PWPmZav-3NEtuZy25f-J-13" value="Source" style="edgeLabel;resizable=0;html=1;align=left;verticalAlign=bottom;strokeColor=default;fontFamily=Helvetica;fontSize=12;fontColor=default;fillColor=default;" connectable="0" vertex="1" parent="PWPmZav-3NEtuZy25f-J-11">
+          <mxGeometry x="-1" relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="PWPmZav-3NEtuZy25f-J-14" value="OrderDispatched" style="shape=message;html=1;html=1;outlineConnect=0;labelPosition=center;verticalLabelPosition=bottom;align=center;verticalAlign=top;strokeColor=default;fontFamily=Helvetica;fontSize=12;fontColor=default;fillColor=default;movable=0;resizable=0;rotatable=0;deletable=0;editable=0;locked=1;connectable=0;" vertex="1" parent="1">
+          <mxGeometry x="690" y="245" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="PWPmZav-3NEtuZy25f-J-16" value="DispatchPreparing" style="shape=message;html=1;html=1;outlineConnect=0;labelPosition=center;verticalLabelPosition=bottom;align=center;verticalAlign=top;strokeColor=default;fontFamily=Helvetica;fontSize=12;fontColor=default;fillColor=default;movable=0;resizable=0;rotatable=0;deletable=0;editable=0;locked=1;connectable=0;" vertex="1" parent="1">
+          <mxGeometry x="690" y="310" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="PWPmZav-3NEtuZy25f-J-15" value="Emit" style="curved=1;endArrow=classic;html=1;rounded=0;fontFamily=Helvetica;fontSize=12;fontColor=default;movable=0;resizable=0;rotatable=0;deletable=0;editable=0;locked=1;connectable=0;" edge="1" parent="1">
+          <mxGeometry x="0.2987" y="-3" width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="950" y="260" as="sourcePoint" />
+            <mxPoint x="730" y="260" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="870" y="300" />
+            </Array>
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PWPmZav-3NEtuZy25f-J-17" value="Emit" style="curved=1;endArrow=classic;html=1;rounded=0;fontFamily=Helvetica;fontSize=12;fontColor=default;movable=0;resizable=0;rotatable=0;deletable=0;editable=0;locked=1;connectable=0;" edge="1" parent="1">
+          <mxGeometry x="0.4986" y="-21" width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1010" y="270" as="sourcePoint" />
+            <mxPoint x="730" y="320" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="820" y="370" />
+            </Array>
+            <mxPoint as="offset" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
